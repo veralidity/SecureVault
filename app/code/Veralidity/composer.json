@@ -1,0 +1,27 @@
+{
+    "name": "veralidity/module-SecureVault",
+    "description": "Veralidity SecureVault",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Veralidity, LLC",
+            "email": "veralidity@protonmail.com",
+            "homepage": "https://www.veralidity.com/"
+        }
+    ],
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.3.28|~7.4.0|~8.0.0",
+        "magento/magento-composer-installer": "*",
+        "magento/framework": "~100.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Veralidity\\SecureVault\\": ""
+        }
+    }
+}

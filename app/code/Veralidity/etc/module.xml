@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Mitchell Robles, Jr.
+ *
+ * @package    Veralidity
+ * @category   SecureVault
+ * @copyright  Copyright © 2023 Mitchell Robles, Jr.
+ * @license    https://www.veralidity.com/license/
+ * @author     Mitchell Robles, Jr. <mitchroblesjr@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Veralidity_SecureVault" setup_version="0.0.1">
+        <sequence>
+            <module name="Veralidity_Core" />
+        </sequence>
+    </module>
+</config>
