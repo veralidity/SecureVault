@@ -14,7 +14,7 @@
 - **Database Adaptation**: At present, only the tables for Customer Information and Customer Addresses store encrypted data. Plans include extending encryption to all customer-related tables, like Sales Quote tables.
 
 ## Progress and Challenges
-- **Partial Functionality**: Although some data decryption is operational upon database exit, this feature is still in development. Currently, encrypted data is visible in the Magento admin panel.
+- **Partial Functionality**: Although some data decryption is operational upon database exit, this feature is still in development. Currently, encrypted data is visible in the Magento admin panel and within the customer account sections. Custome First Name and Last Name are decrypted though.
 - **Future Expansion**: The ultimate aim is comprehensive encryption of all customer data within the database.
 
 ## Roadmap
